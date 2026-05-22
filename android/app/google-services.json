@@ -1,0 +1,42 @@
+{
+  "_comment": "REPLACE THIS FILE with your actual google-services.json downloaded from Firebase Console.",
+  "_instructions": [
+    "1. Go to https://console.firebase.google.com",
+    "2. Create a project named 'ScrollBattle'",
+    "3. Add an Android app with package name: com.scrollbattle.scroll_battle",
+    "4. Download google-services.json and replace this file",
+    "5. Enable: Authentication (Google), Firestore, Storage, Cloud Messaging"
+  ],
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_PROJECT_ID.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "YOUR_MOBILESDK_APP_ID",
+        "android_client_info": {
+          "package_name": "com.scrollbattle.scroll_battle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "YOUR_WEB_CLIENT_ID.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
