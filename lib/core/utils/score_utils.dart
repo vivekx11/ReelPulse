@@ -1,3 +1,5 @@
+//score 
+
 import '../constants/app_constants.dart';
 
 /// Calculates addiction and productivity scores
